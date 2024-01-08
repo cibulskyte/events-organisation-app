@@ -1,15 +1,19 @@
-import React from 'react';
+
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import './Header.css';
 
 const Nav = styled.nav`
   background-color: #333;
   color: white;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin:0;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  row-gap: 30px;
 `;
 
 const Top = styled.div`
